@@ -1,0 +1,84 @@
+body {
+    animation: Rahul 1s infinite;
+  }
+  
+  @keyframes Rahul {
+    0% {
+      background-color: rgb(0, 255, 242);
+    }
+  
+    35% {
+      background-color: rgb(255, 0, 217);
+    }
+  
+    45% {
+      background-color: rgb(255, 13, 0);
+    }
+  
+    55% {
+      background-color: rgb(255, 145, 0);
+    }
+  
+    75% {
+      background-color: rgb(145, 147, 32);
+    }
+  
+    85% {
+      background-color: rgb(187, 71, 71);
+    }
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  input {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 25%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .a {
+    width: 600px;
+    height: 500px;
+    background-color: orange;
+    border: 20px solid red;
+    border-radius: 30px;
+    /* overflow: hidden; */
+  }
+  
+  ul li {
+    width: 550px;
+    /* flex-wrap: wrap; */
+  }
+  /* ul li span{
+      width: 200px ;
+      text-wrap: nowrap;
+      overflow: hidden;
+  
+    } */
+  
